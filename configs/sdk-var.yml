@@ -78,8 +78,8 @@ VARSOM: y
 # The provider-specific LINUX_VERSION_EXTENSION values make `uname -r` show
 # either "imx" or "fslc-imx".
 KERNEL_PROVIDER_DEFAULT: fslc-imx
-KERNEL_PROVIDER_IMX_COMMIT: "23158b38eedac7b8f7795d1bce5feed676b53f19"
-KERNEL_PROVIDER_FSLC_COMMIT: "92ac098fdb23b93b388f324abd30c43bc77086e4"
+KERNEL_PROVIDER_IMX_COMMIT: "70c901bfbd31cbb7193c2815b9c0a5df809c0ad0"
+KERNEL_PROVIDER_FSLC_COMMIT: "2d489f5976925df11ffb67315a272680298fce42"
 # These suffixes are appended to the kernel version (CONFIG_LOCALVERSION).
 KERNEL_PROVIDER_IMX_LINUX_VERSION_EXTENSION: "-imx"
 KERNEL_PROVIDER_FSLC_LINUX_VERSION_EXTENSION: "-fslc-imx"
@@ -96,7 +96,7 @@ repo:
 
   uboot:
     url:  https://github.com/varigit/uboot-imx.git
-    commit: 6910bbe2a666b44549a1b8d05b491c1df33f2a7e
+    commit: 5661fe93b84bd84377eb4d1cde6ff7654a808bc6
 
   rcw:
     url:  https://github.com/nxp-qoriq/rcw.git
@@ -434,7 +434,7 @@ repo:
 
   meta_variscite_bsp_imx:
     url: https://github.com/varigit/meta-variscite-bsp-imx.git
-    commit: 20fe60bf4ed185c4cf6204df551deaae19e236ca
+    commit: da34162054ee079f1901d80ae4ceabf841de17f6
 
 # bsp components repositories
   freertos_variscite:
@@ -447,7 +447,7 @@ repo:
 
   meta_variscite_sdk_imx:
     url: https://github.com/varigit/meta-variscite-sdk-imx.git
-    commit: 9babc67e0be8b4458e5531ba963d2bbfc9ec315b
+    commit: 95711de0fc1527c8e555eae8d56c84df99ca41a0
 
 # generic component repositories
   imx_test:
