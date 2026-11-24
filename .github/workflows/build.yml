@@ -23,6 +23,7 @@ jobs:
           - imx8mq-var-dart
           - imx8qm-var-som
         rootfs:
+          - server
           - desktop
     uses: varigit-dev/action-workflows/.github/workflows/flexbuild.yml@dev_flexbuild
     with:
